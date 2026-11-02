@@ -33,12 +33,12 @@ dependencies:
   pdf:
     git:
       url: https://github.com/ptech/dart_pdf.git
-      ref: v3.11.3-ptech # Fix thread issues on iOS and MacOS printing plugin
+      ref: v3.11.3-archive4x-ptech # archive 4.x, plus the iOS and macOS printing thread fix
       path: pdf
   pdf_widget_wrapper:
     git:
       url: https://github.com/ptech/dart_pdf.git
-      ref: v1.0.4-ptech # Fix thread issues on iOS and MacOS printing plugin
+      ref: v3.11.3-archive4x-ptech # archive 4.x, plus the iOS and macOS printing thread fix
       path: widget_wrapper
   plugin_platform_interface: ^2.1.0
   web: ^1.0.0
