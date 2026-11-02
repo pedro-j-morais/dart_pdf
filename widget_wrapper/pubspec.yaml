@@ -15,8 +15,8 @@ dependencies:
     sdk: flutter
   pdf:
     git:
-      url: https://github.com/ptech/dart_pdf.git
-      ref: v3.11.3-archive4x-ptech # archive 4.x, plus the iOS and macOS printing thread fix
+      url: https://github.com/pedro-j-morais/dart_pdf.git
+      ref: archive-4x-fork # fork-only until ptech tags v3.11.3-archive4x-ptech
       path: pdf
 
 dependency_overrides:
